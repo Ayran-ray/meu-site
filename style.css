@@ -3,48 +3,70 @@
     padding: 0;
 }
 body {
+    height: 100vh;
     background-color: black;
     color: #F6F6F6;
     font-family: Arial, sans-serif;
-    font-size: 16px;
     line-height: 1.5;
-    margin: 100px 500px 100px 200px;
     font-family: "Krona One", sans-serif;
+    box-sizing: border-box
 }
 .titulo-destaque {
     color: #22D4FD;
 }
 .git-hub {
-    position: relative;
-    right: 75px;
-    top: 20px;
-    display: inline-block;
-    padding: 20px 40px;
+    display: flex;
     background-color: #22D4FD;
     color: black;
     text-decoration: none;
     border-radius: 5px;
     transition: 1s;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    align-items: center;      /* Centraliza verticalmente */
+    justify-content: center;
+    margin-top: -50px;
+    margin-left: 50%;
 }
 .insta {
-    position: relative;
-    left: 350px;
-    top: 20px;
-    display: inline-block;
-    padding: 20px 40px;
+    display: flex;
     background-color: #22D4FD;
     color: black;
     text-decoration: none;
     border-radius: 5px;
     transition: 1s;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    align-items: center;      /* Centraliza verticalmente */
+    justify-content: center;
 }
 .foto-perfil {
-    position: relative;
-    left: 700px;
-    top: -290px;
     width: 300px;
     height: 300px;
     border-radius: 5%;
     border-top: 5px solid #22D4FD;
-    border-right: 5px solid #22D4FD;
+    border-right: #22D4FD 5px solid;
+    margin: 0% 0% 0% 0%;
+}
+.conteiner {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.conteiner__texto {
+    width: 615px;
+    height: 300px;
+}
+.principal {
+    font-size: 36px;
+}
+.principal__conteiner__texto {
+    font-size: 36px;
+}
+.principal__conteiner__texto p {
+    font-size: 24px;
 }
